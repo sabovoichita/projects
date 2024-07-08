@@ -45,12 +45,21 @@ function createContentJS(projects) {
 
   const text = projects.map((project) => {
     return `
-     
       <div class="content">
-          <h2>${project.name}</h2>
-          <a href = "${project.url}"><img src="${project.preview}" alt="selfie" /></a>
-      
-        </div>
+      <a href="${project.url}"><h2>${project.name}</h2></a>
+      <div class="details">
+        <h3>Technologies used</h3>
+        <ul>
+          <li>${project.tehnologies}</li>
+        </ul>
+      </div>
+      <details>
+        <summary>Preview</summary>
+        <a href="${project.url}"
+          ><img src="${project.preview}" alt="selfie"
+        /></a>
+      </details>
+    </div>
       `;
   });
   //   console.log("text", text);
