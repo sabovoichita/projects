@@ -20,90 +20,41 @@ function createHeader() {
 function createContent() {
   console.log("creating content");
   return `
-   <div class="content">
-      <h2>Voichita's Main Projects</h2>
-
-      <div class="content">
-        <h2>Project 1: My CV</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 2: My CV(Udemy version)</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 3: My CV- React</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 4: Teams Networking</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 5: Teams Networking(Udemy version)</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 6: Meals Planner</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 7: Birthdays Calendar</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 8: Birthdays Calendar</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 9: Florea Sabo Poetry</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 10: Chis Simona Vegetables</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 11: Centro Etetica Ana</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 12: Vizit Coseiu</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 13: Todo List</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 14: Sunday School Cross-out Game</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 15: Simple Quiz App</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 16: Depozit Coseiu</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 17: Free Code Camp</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 18: Free Code Camp - CSS</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 19: Romana - Spaniola</h2>
-      </div>
-
-      <div class="content">
-        <h2>Project 20: Cafe Menu</h2>
-      </div>
+   <div class="contents"> 
     </div>
   `;
+}
+
+function loadProjects() {
+  //   console.log("in the loadProjects function");
+  fetch("projects.json").then((r) => {
+    r.json().then((projects) => {
+      //   console.log("projects %o", projects);
+      createContentJS(projects);
+    });
+  });
+}
+
+function createContentJS(projects) {
+  console.log("in the createContentJS function");
+
+  //   console.log(projects);
+  const div = $(".contents");
+  //   console.log("div:", div);
+  //   console.log("projects now:", projects);
+
+  const text = projects.map((project) => {
+    return `
+     
+      <div class="content">
+          <h2>${project.name}</h2>
+          <a href = "${project.url}"><img src="${project.preview}" alt="selfie" /></a>
+      
+        </div>
+      `;
+  });
+  //   console.log("text", text);
+  div.innerHTML = "<h2>Voichita's Projects</h2>" + text.join("");
 }
 
 function createFooter() {
@@ -134,7 +85,7 @@ function createFooter() {
   `;
 }
 
-function insertContent() {
+function insertContent(projects) {
   console.log("insert content");
   $("body").innerHTML = createHeader() + createContent() + createFooter();
 }
@@ -142,6 +93,7 @@ function insertContent() {
 function initEvents() {
   console.log("init Events");
   insertContent();
+  loadProjects();
 }
 
 initEvents();

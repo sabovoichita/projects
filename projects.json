@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Project 1: My CV",
+    "url": "https://sabovoichita.github.io/",
+    "preview": "images/1.png"
+  },
+  {
+    "name": "Project 2: My CV (Udemy version)",
+    "url": "https://sabovoichita.github.io/udemy.sabovoichita.github.io/",
+    "preview": "images/2.png"
+  },
+  {
+    "name": "Project 3: My CV (React Version)",
+    "url": "https://github.com/sabovoichita/sabovoichita-profile-react",
+    "preview": "images/3.png"
+  },
+  {
+    "name": "Project 4: Teams Networking",
+    "url": "https://sabovoichita.github.io/teams-networking/",
+    "preview": "images/4.png"
+  },
+  {
+    "name": "Project 5: Teams Networking (Udemy version)",
+    "url": "https://sabovoichita.github.io/teams-networking-udemy/",
+    "preview": "images/5.png"
+  },
+  {
+    "name": "Project 6: Teams Networking (React version)",
+    "url": "https://github.com/sabovoichita/teams-networking-udemy-react",
+    "preview": "images/6.png"
+  },
+  {
+    "name": "Project 7: Meals Planner",
+    "url": "https://sabovoichita.github.io/meals-planner/",
+    "preview": "images/7.png"
+  },
+  {
+    "name": "Project 8: Birthdays Calendar",
+    "url": "https://sabovoichita.github.io/birthdays-calendar/",
+    "preview": "images/8.png"
+  },
+  {
+    "name": "Project 9: Florea Sabo Poetry",
+    "url": "https://sabovoichita.github.io/florea-sabo-poetry/",
+    "preview": "images/9.png"
+  },
+  {
+    "name": "Project 10: Chis Simona Vegetables",
+    "url": "https://sabovoichita.github.io/chissimona/",
+    "preview": "images/10.png"
+  },
+  {
+    "name": "Project 11: Centro Estetica Ana",
+    "url": "https://sabovoichita.github.io/centroesteticaana/",
+    "preview": "images/11.png"
+  },
+  {
+    "name": "Project 12: Vizit Coseiu",
+    "url": "https://sabovoichita.github.io/vizit-coseiu/",
+    "preview": "images/12.png"
+  },
+  {
+    "name": "Project 13: Todo List",
+    "url": "https://sabovoichita.github.io/todo-list/",
+    "preview": "images/13.png"
+  },
+  {
+    "name": "Project 14: Sunday School Cross-out Game",
+    "url": "https://sabovoichita.github.io/sunday-school-cross-out-game/",
+    "preview": "images/14.png"
+  },
+  {
+    "name": "Project 15: Simple Quiz App",
+    "url": "https://nmatei.github.io/simple-quiz-app/?",
+    "preview": "images/15.png"
+  },
+  {
+    "name": "Project 16: Depozit Coseiu",
+    "url": "https://sabovoichita.github.io/depozit-coseiu/",
+    "preview": "images/16.png"
+  },
+  {
+    "name": "Project 17: Free Code Camp",
+    "url": "https://sabovoichita.github.io/free-code-camp/",
+    "preview": "images/17.png"
+  },
+  {
+    "name": "Project 18: Free Code Camp - CSS",
+    "url": "https://sabovoichita.github.io/free-code-camp-css/",
+    "preview": "images/18.png"
+  },
+  {
+    "name": "Project 19: Romana - Spaniola",
+    "url": "https://sabovoichita.github.io/romana-spaniola/",
+    "preview": "images/19.png"
+  },
+  {
+    "name": "Project 20: Cafe Menu",
+    "url": "https://sabovoichita.github.io/cafe-menu/",
+    "preview": "images/20.png"
+  }
+]
