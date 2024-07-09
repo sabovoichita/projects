@@ -1,120 +1,141 @@
 [
   {
+    "id": 1,
     "name": "Project 1: My CV",
     "tehnologies": ["HTML", " CSS", " JS"],
+    "description": "This project is my CV made at FastTrackIT course, guided by Matei Nicolae. It contains several pieces of information related to my curriculum. There is a 'Home' page with several links, a 'Skills' page  made with JavaScript that contains all of the technologies sorted by endorcements, a 'Projects' page with all my certifications, also designed using JavaScript, and there is also a 'Languages' page that has a table made with JavaScript with the known languages and level. The 'Footer' area contains all the contact link buttons (Linkedin, Github, Youtube, Email). A button with a light buld can also made the contract gray when clicked. On the side of the page there is an area with a 'Contact form' and a 'Rubik's Face' also designed with JavaScript.",
     "url": "https://sabovoichita.github.io/",
     "preview": "images/1.png"
   },
   {
+    "id": 2,
     "name": "Project 2: My CV (Udemy version)",
     "tehnologies": ["HTML", " CSS", " JS"],
+    "description": "This project is my CV made on Udemy, guided by Matei Nicolae. It contains several pieces of information related to my curriculum. There is a 'Home' page with several links, a 'Skills' page  made with JavaScript that contains all of the technologies sorted by endorcements, a 'Projects' page with all my certifications, also designed using JavaScript, and there is also a 'Languages' page that has a table made with JavaScript with the known languages and level. The 'Footer' area contains all the contact link buttons (Linkedin, Github, Youtube, Email). A button with a light buld can also made the contract gray when clicked. On the side of the page there is an area with a 'Contact form' and a 'Rubik's Face' also designed with JavaScript.",
     "url": "https://sabovoichita.github.io/udemy.sabovoichita.github.io/",
     "preview": "images/2.png"
   },
   {
+    "id": 3,
     "name": "Project 3: My CV (React Version)",
     "tehnologies": ["HTML", " CSS", " JS", " REACT"],
     "url": "https://github.com/sabovoichita/sabovoichita-profile-react",
     "preview": "images/3.png"
   },
   {
+    "id": 4,
     "name": "Project 4: Teams Networking",
     "tehnologies": ["HTML", " CSS", " JS", " API", " NODEjs"],
     "url": "https://sabovoichita.github.io/teams-networking/",
     "preview": "images/4.png"
   },
   {
+    "id": 5,
     "name": "Project 5: Teams Networking (Udemy version)",
     "tehnologies": ["HTML", " CSS", " JS", " API", " NODEjs"],
-
     "url": "https://sabovoichita.github.io/teams-networking-udemy/",
     "preview": "images/5.png"
   },
   {
+    "id": 6,
     "name": "Project 6: Teams Networking (React version)",
     "tehnologies": ["HTML", " CSS", " JS", " REACT"],
     "url": "https://github.com/sabovoichita/teams-networking-udemy-react",
     "preview": "images/6.png"
   },
   {
+    "id": 7,
     "name": "Project 7: Meals Planner",
     "tehnologies": ["HTML", " CSS", " JS", " API", " NODEjs"],
     "url": "https://sabovoichita.github.io/meals-planner/",
     "preview": "images/7.png"
   },
   {
+    "id": 8,
     "name": "Project 8: Birthdays Calendar",
     "tehnologies": ["HTML", " CSS", " JS", " API", " NODEjs"],
     "url": "https://sabovoichita.github.io/birthdays-calendar/",
     "preview": "images/8.png"
   },
   {
+    "id": 9,
     "name": "Project 9: Florea Sabo Poetry",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/florea-sabo-poetry/",
     "preview": "images/9.png"
   },
   {
+    "id": 10,
     "name": "Project 10: Chis Simona Vegetables",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/chissimona/",
     "preview": "images/10.png"
   },
   {
+    "id": 11,
     "name": "Project 11: Centro Estetica Ana",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/centroesteticaana/",
     "preview": "images/11.png"
   },
   {
+    "id": 12,
     "name": "Project 12: Vizit Coseiu",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/vizit-coseiu/",
     "preview": "images/12.png"
   },
   {
+    "id": 13,
     "name": "Project 13: Todo List",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/todo-list/",
     "preview": "images/13.png"
   },
   {
+    "id": 14,
     "name": "Project 14: Sunday School Cross-out Game",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/sunday-school-cross-out-game/",
     "preview": "images/14.png"
   },
   {
+    "id": 15,
     "name": "Project 15: Simple Quiz App",
     "tehnologies": ["HTML", " CSS", " JS", " API", " NODEjs"],
     "url": "https://nmatei.github.io/simple-quiz-app/?",
     "preview": "images/15.png"
   },
   {
+    "id": 16,
     "name": "Project 16: Depozit Coseiu",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/depozit-coseiu/",
     "preview": "images/16.png"
   },
   {
+    "id": 17,
     "name": "Project 17: Free Code Camp",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/free-code-camp/",
     "preview": "images/17.png"
   },
   {
+    "id": 18,
     "name": "Project 18: Free Code Camp - CSS",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/free-code-camp-css/",
     "preview": "images/18.png"
   },
   {
+    "id": 19,
     "name": "Project 19: Romana - Spaniola",
     "tehnologies": ["HTML", " CSS", " JS"],
     "url": "https://sabovoichita.github.io/romana-spaniola/",
     "preview": "images/19.png"
   },
   {
+    "id": 20,
     "name": "Project 20: Cafe Menu",
     "tehnologies": ["HTML", " CSS"],
     "url": "https://sabovoichita.github.io/cafe-menu/",
