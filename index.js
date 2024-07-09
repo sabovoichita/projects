@@ -18,7 +18,7 @@ function createHeader() {
 }
 
 function createContent() {
-  console.log("creating content");
+  //   console.log("creating content");
   return `
     <section class="section" id="section--2">
       <div class="container-portofolio">
@@ -151,7 +151,6 @@ function initEvents() {
   console.log("init Events");
   insertContent();
   loadProjects();
-  showSlides(slideIndex);
 }
 
 initEvents();
