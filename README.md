@@ -4,7 +4,7 @@ All my projects links all together
 
 # Live link:
 
-[💥](https://sabovoichita.github.io/projects/)
+[here](https://sabovoichita.github.io/projects/)
 
 ## Project 1: My CV:
 
@@ -13,3 +13,4 @@ All my projects links all together
 ## Project 2: My CV - Udemy version:
 
 [💥](https://sabovoichita.github.io/udemy.sabovoichita.github.io/)
+...
