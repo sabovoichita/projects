@@ -229,7 +229,10 @@ h1 {
   color: var(--clr-light-blue);
   padding: 20px 0px 15px 20px;
 }
-
+.container-portofolio span {
+  font-size: 18px;
+  font-weight: 900;
+}
 .projects {
   margin-bottom: 50px;
   padding: 0px 20px 60px 20px;
@@ -245,12 +248,18 @@ h1 {
 }
 
 .secondary__projects {
+  background-image: url("./images/1.png");
   width: 100%;
   height: 400px;
   display: block;
   justify-items: center;
   align-items: center;
   margin: 10px 0px 5px 0px;
+}
+.secondary__projects .dots {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
 }
 
 .project--1,

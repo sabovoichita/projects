@@ -20,27 +20,23 @@ function createHeader() {
 function createContent() {
   console.log("creating content");
   return `
-   
     <section class="section" id="section--2">
       <div class="container-portofolio">
         <h2>Portofolio</h2>
+        <p>~ contains <span>20</span> projects made with <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>React</span>, <span>NodeJs</span>,  <span>API</span> ~</p>
         <div class="projects">
           <div class="main__project"></div>
           <div class="secondary__projects">
-            
           </div>
         </div>
       </div>
     </section>
-
   `;
 }
 
 function loadProjects() {
-  //   console.log("in the loadProjects function");
   fetch("projects.json").then((r) => {
     r.json().then((projects) => {
-      //   console.log("projects %o", projects);
       createPortofolio(projects);
     });
   });
@@ -48,7 +44,6 @@ function loadProjects() {
 
 function createPortofolio(projects) {
   console.log("in the createContentJS function");
-
   //   console.log(projects);
   const div = $(".secondary__projects");
   //   console.log("div:", div);
@@ -56,7 +51,6 @@ function createPortofolio(projects) {
 
   const text = projects.map((project) => {
     return `
-    
   <div class="project--${project.id} mySlides fade" style="background: url(${project.preview})">
       <div class="overlay_portofolio_projects">
         <h4 class="overlay_port_title">${project.name}</h4>
@@ -74,7 +68,6 @@ function createPortofolio(projects) {
         >
       </div>
     </div>
-    
       `;
   });
   //   console.log("text", text);
@@ -91,21 +84,6 @@ function createPortofolio(projects) {
         <span class="dot" onclick="currentSlide(5)"></span>
         <span class="dot" onclick="currentSlide(6)"></span>
       </div>`;
-}
-
-function createSection() {
-  const portofolio = createPortofolio(projects);
-  const text = `
-    <section class="section" id="section--2">
-      <div class="container-portofolio">
-        <h2>Portofolio</h2>
-        <h4>20 projects</h4>
-        <div class="projects">
-          <div class="secondary__projects">${portofolio}</div>
-        </div>
-      </div>
-    </section>`;
-  $("body").innerHTML = text;
 }
 
 function createFooter() {
