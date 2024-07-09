@@ -327,10 +327,26 @@ h1 {
 .main__project:hover .overlay_portofolio_projects {
   height: 100%;
 }
-.project--1:hover .overlay_portofolio_projects {
-  height: 100%;
-}
-.project--2:hover .overlay_portofolio_projects {
+.project--1:hover .overlay_portofolio_projects,
+.project--2:hover .overlay_portofolio_projects,
+.project--3:hover .overlay_portofolio_projects,
+.project--4:hover .overlay_portofolio_projects,
+.project--5:hover .overlay_portofolio_projects,
+.project--6:hover .overlay_portofolio_projects,
+.project--7:hover .overlay_portofolio_projects,
+.project--8:hover .overlay_portofolio_projects,
+.project--9:hover .overlay_portofolio_projects,
+.project--10:hover .overlay_portofolio_projects,
+.project--11:hover .overlay_portofolio_projects,
+.project--12:hover .overlay_portofolio_projects,
+.project--13:hover .overlay_portofolio_projects,
+.project--14:hover .overlay_portofolio_projects,
+.project--15:hover .overlay_portofolio_projects,
+.project--16:hover .overlay_portofolio_projects,
+.project--17:hover .overlay_portofolio_projects,
+.project--18:hover .overlay_portofolio_projects,
+.project--19:hover .overlay_portofolio_projects,
+.project--20:hover .overlay_portofolio_projects {
   height: 100%;
 }
 
