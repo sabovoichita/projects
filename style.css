@@ -338,3 +338,56 @@ h1 {
   padding: 10px;
   margin-top: 10px;
 }
+footer {
+  background-color: var(--clr-sec-light);
+  display: flex;
+}
+.footer__container {
+  background-color: var(--clr-sec-light);
+  overflow: hidden;
+  margin: auto;
+  max-width: 1200px;
+  padding: 10px;
+}
+footer span {
+  margin: 0 auto;
+}
+.footer__container .footer__text {
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+}
+.sec__text {
+  color: var(--clr-light-blue);
+}
+
+.sec__text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: var(--clr-light-blue);
+  background-color: var(--clr-sec-light);
+  border-left: 2px solid var(--clr-light-blue);
+  animation: animate 3s steps(11) infinite;
+}
+@keyframes animate {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer__container .footer__text {
+    font-size: 22px;
+  }
+  .footer__container .footer__text {
+    font-size: 22px;
+  }
+}

@@ -88,7 +88,13 @@ function createPortofolio(projects) {
 
 function createFooter() {
   console.log("creating footer");
-  return `<div class = "footer">
+  return `
+  <footer>
+    <div class="footer__container">
+      <span class="footer__text first__text">Voichita Maria Truscai</span>
+      <span class="footer__text sec__text">Portofolio</span>
+    </div>
+  <div class = "footer">
   <a
       href="https://www.linkedin.com/in/voichita-maria-truscai/"
       title="LinkedIn"
@@ -111,6 +117,7 @@ function createFooter() {
       ><img src="images/email-round.svg" width="40px" alt="email"
     /></a>
   </div>
+   </footer>
   `;
 }
 
