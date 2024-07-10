@@ -12,7 +12,7 @@ function createHeader() {
        <img src="images/selfie.jpg" alt="selfie" />
     </div>
     <div class = "header-info">
-        <h1>Voichita's Projects</h1>
+        <h1>Voichita's Portofolio</h1>
     </div>
   </div>`;
 }
@@ -23,7 +23,7 @@ function createContent() {
     <section class="section" id="section--2">
       <div class="container-portofolio">
         <h2>Portofolio</h2>
-        <p>~ contains <span>20</span> projects made with <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>React</span>, <span>NodeJs</span>,  <span>API</span> ~</p>
+        <p>~ contains <span>20</span> projects made with <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>React</span>, <span>NodeJs</span>,  <span>API</span>, <span>NPM</span> ~</p>
         <div class="projects">
           <div class="main__project"></div>
           <div class="secondary__projects">
