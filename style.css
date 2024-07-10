@@ -7,35 +7,25 @@
   --clr-light-yellow: #fcd966;
   --clr-dark1: #444;
 }
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
-
 html {
   font-size: 100%;
-  box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Sora", sans-serif;
-  color: var(--clr-dark);
   line-height: 1.9;
+  color: var(--clr-dark);
   background-color: var(--clr-light);
 }
 
-html,
-body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 .header {
   display: flex;
   position: sticky;
@@ -74,7 +64,6 @@ h1 {
   font-size: 40px;
 }
 
-/* The dots/bullets/indicators */
 .dots span:before {
   content: "";
   top: 0;
@@ -93,7 +82,6 @@ h1 {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .dots span:nth-child(4n + 1):before {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='7' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M.5 4l6-4v8l-6-4z' fill='%23F0503C'/%3E%3C/svg%3E");
   background-size: 7px 8px;
@@ -110,7 +98,6 @@ h1 {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 6.5l-4-6h8l-4 6z' fill='%23FFB133'/%3E%3C/svg%3E");
   background-size: 8px 7px;
 }
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -121,18 +108,15 @@ h1 {
   /* display: inline-block; */
   transition: background-color 0.6s ease;
 }
-
 .active,
 .dot:hover {
   background-color: #e9dfdf;
   border: 2px solid rgb(204, 204, 228);
 }
-
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -147,6 +131,7 @@ h1 {
   height: auto;
   position: relative;
 }
+
 .prev,
 .next {
   cursor: pointer;
@@ -155,25 +140,16 @@ h1 {
   width: auto;
   padding: 16px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  border-radius: 3px 0 0 3px;
-  right: 12%;
   top: 50%;
   color: var(--clr-sec-dark);
+}
+.next {
+  right: 12%;
 }
 .prev {
-  border-radius: 3px 0 0 3px;
   left: 12%;
-  top: 50%;
-  color: var(--clr-sec-dark);
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
@@ -188,20 +164,20 @@ h1 {
 .description h4 {
   text-indent: 1rem;
   padding-bottom: 5px;
-  font-size: 10px;
+  font-size: 16px;
 }
 .description p {
   text-align: justify;
   text-indent: 1rem;
-  font-size: 10px;
+  font-size: 16px;
   padding-bottom: 5px;
 }
+
 .container-portofolio {
   max-width: 1200px;
   margin: auto;
   margin-top: 40px;
 }
-
 .container-portofolio h2 {
   color: var(--clr-light-blue);
   padding: 20px 0px 15px 20px;
@@ -210,9 +186,11 @@ h1 {
   font-size: 18px;
   font-weight: 900;
 }
-.overlay_port_title h3 {
-  font-size: 13px;
+
+.overlay_port_title h4 {
+  font-size: 16px;
 }
+
 .section {
   background: var(--clr-sec-light);
 }
@@ -220,6 +198,7 @@ h1 {
 .projects {
   padding: 0px 20px 20px 0px;
   background: var(--clr-light);
+  max-width: 1200px;
 }
 
 .main__project {
@@ -229,14 +208,14 @@ h1 {
 }
 
 .secondary__projects {
-  width: 400px;
+  width: 1200px;
   display: block;
   justify-items: center;
   align-items: center;
   margin: 5px 0px 0px 5px;
 }
 .secondary__projects img {
-  width: 400px;
+  width: 1200px;
 }
 
 .secondary__projects .dots {
@@ -267,10 +246,9 @@ h1 {
 .project--20 {
   position: relative;
   height: 100%;
-  width: 400px;
+  width: 1200px;
   margin: 5px 0px 0px 5px;
 }
-
 .overlay_portofolio_projects {
   position: absolute;
   bottom: 0;
@@ -283,18 +261,15 @@ h1 {
   height: 0;
   transition: 0.5s ease;
 }
-
 .overlay_portofolio_projects a {
   text-decoration: none;
 }
-
 .overlay_port_title {
   text-align: center;
   color: var(--clr-sec-light);
   margin: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
-
 .overlay_port_btn {
   display: block;
   margin: auto;
@@ -368,7 +343,7 @@ footer span {
 }
 .footer__container .footer__text {
   position: relative;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 600;
 }
 .sec__text {
@@ -444,12 +419,6 @@ footer span {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
   }
-
-  .next,
-  .prev {
-    top: 30%;
-  }
-
   .header {
     top: 8%;
   }
@@ -457,37 +426,36 @@ footer span {
     width: 80px;
     height: 80px;
   }
-
   .header-info h1 {
     font-size: 20px;
   }
-
   .overlay_port_title {
     font-size: 16px;
   }
-
   .overlay_port_btn {
     font-size: 14px;
     padding: 8px;
   }
-
   .prev,
   .next {
-    font-size: 16px;
-    padding: 12px;
+    top: 30%;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    color: rgb(48, 44, 44);
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
   }
-
   .dot {
     height: 12px;
     width: 12px;
   }
-
   .secondary__projects .dots {
     position: absolute;
     top: 31%;
     right: 30%;
   }
-
   footer {
     position: fixed;
     top: 0%;
