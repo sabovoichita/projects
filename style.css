@@ -400,6 +400,9 @@ footer span {
   .container-portofolio {
     max-width: fit-content;
   }
+  .container-portofolio h2 {
+    color: var(--clr-light);
+  }
 
   .main__project .overlay_portofolio_projects {
     /* height: 100%; */
