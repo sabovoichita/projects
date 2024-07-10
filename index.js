@@ -43,15 +43,13 @@ function loadProjects() {
 }
 
 function createPortofolio(projects) {
-  console.log("in the createContentJS function");
-  //   console.log(projects);
+  //   console.log("in the createContentJS function");
   const div = $(".secondary__projects");
-  //   console.log("div:", div);
-  //   console.log("projects now:", projects);
 
   const text = projects.map((project) => {
     return `
-  <div class="project--${project.id} mySlides fade" style="background: url(${project.preview})">
+  <div class="project--${project.id} mySlides fade">
+       <img src="${project.preview}" alt="project picture" />
       <div class="overlay_portofolio_projects">
         <h4 class="overlay_port_title">${project.name}</h4>
         <div class="description">
