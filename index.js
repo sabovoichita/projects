@@ -51,13 +51,11 @@ function createPortofolio(projects) {
   <div class="project--${project.id} mySlides fade">
        <img src="${project.preview}" alt="project picture" />
       <div class="overlay_portofolio_projects">
-        <h4 class="overlay_port_title">${project.name}</h4>
+        <h3 class="overlay_port_title">${project.name}</h3>
         <div class="description">
-          <h3>Description:</h3>
+          <h4>Technologies used: ${project.tehnologies}</h4>
+          <h4>Description:</h4>
           <p>${project.description}</p>
-        </div>
-        <div class="details">
-          <h3>Technologies used: ${project.tehnologies}</h3>
         </div>
         <a href="${project.url}">
           <button class="overlay_port_btn" onclick="${project.url}">

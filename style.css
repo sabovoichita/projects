@@ -143,12 +143,9 @@ h1 {
 }
 .mySlides {
   display: none;
-  width: 100%;
+  width: 400px;
   height: auto;
   position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .prev,
 .next {
@@ -185,12 +182,20 @@ h1 {
 
 .description {
   text-align: justify;
-  text-indent: 1rem;
-  font-size: 16px;
   color: var(--clr-sec-light);
   padding: 10px;
 }
-
+.description h4 {
+  text-indent: 1rem;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+.description p {
+  text-align: justify;
+  text-indent: 1rem;
+  font-size: 10px;
+  padding-bottom: 5px;
+}
 .container-portofolio {
   max-width: 1200px;
   margin: auto;
@@ -204,6 +209,9 @@ h1 {
 .container-portofolio span {
   font-size: 18px;
   font-weight: 900;
+}
+.overlay_port_title h3 {
+  font-size: 13px;
 }
 .section {
   background: var(--clr-sec-light);
@@ -401,7 +409,8 @@ footer span {
   }
 
   .container-portofolio {
-    max-width: fit-content;
+    width: 400px;
+    display: block;
   }
   .container-portofolio h2 {
     color: var(--clr-sec-light);
@@ -457,11 +466,6 @@ footer span {
     font-size: 16px;
   }
 
-  .description,
-  .details {
-    font-size: 14px;
-  }
-
   .overlay_port_btn {
     font-size: 14px;
     padding: 8px;
@@ -495,5 +499,6 @@ footer span {
   }
   footer img {
     width: 30px;
+    border-radius: 50%;
   }
 }
