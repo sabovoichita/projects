@@ -482,15 +482,17 @@ footer span {
     top: 31%;
     right: 30%;
   }
-  .footer__container .footer__text {
-    font-size: 8px;
-  }
+
   footer {
     position: fixed;
     top: 0%;
     right: 0%;
+    padding: 0 5px;
   }
-  .footer {
-    padding: 5px;
+  .footer__container .footer__text {
+    font-size: 8px;
+  }
+  footer img {
+    width: 30px;
   }
 }
