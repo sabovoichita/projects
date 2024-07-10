@@ -490,4 +490,7 @@ footer span {
     top: 0%;
     right: 0%;
   }
+  .footer {
+    padding: 5px;
+  }
 }
