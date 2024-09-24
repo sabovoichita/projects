@@ -145,10 +145,10 @@
   },
   {
     "id": 19,
-    "name": "Project 19: Romana - Spaniola",
+    "name": "Project 19: Learn Spanish",
     "tehnologies": ["HTML", " CSS", " JS"],
-    "description": "This project is a collection to learn Spanish",
-    "url": "https://sabovoichita.github.io/romana-spaniola/",
+    "description": "This project is a collection to learn Spanish and plractice exercises",
+    "url": "https://sabovoichita.github.io/learn-spanish/",
     "preview": "images/19.png"
   },
   {
@@ -158,5 +158,37 @@
     "description": "This project is a menu made with HTML and CSS using freeCodeCamp",
     "url": "https://sabovoichita.github.io/cafe-menu/",
     "preview": "images/20.png"
+  },
+  {
+    "id": 21,
+    "name": "Project 21: Quotes Slider",
+    "tehnologies": ["HTML", " CSS", "JS"],
+    "description": "This project is a menu made with HTML and CSS and JavaScript which will switch automatically between quotes changing each time the photos too. On pressing the button, quotes can be cganged too.",
+    "url": "https://sabovoichita.github.io/cafe-menu/",
+    "preview": "images/21.png"
+  },
+  {
+    "id": 22,
+    "name": "Project 22: Factura calculator",
+    "tehnologies": ["HTML", " CSS", "JS"],
+    "description": "This project is a menu made with HTML and CSS and JavaScript to help find the total amount of a VAT bill in Spain",
+    "url": "https://sabovoichita.github.io/factura-calculator/",
+    "preview": "images/22.png"
+  },
+  {
+    "id": 23,
+    "name": "Project 23: Reading List",
+    "tehnologies": ["HTML", " CSS", "JS"],
+    "description": "This project was made to keep track of all the books read. Books can be added and edited too in the bottom input area",
+    "url": "https://sabovoichita.github.io/reading-list/",
+    "preview": "images/23.png"
+  },
+  {
+    "id": 24,
+    "name": "Project 24: Voichița's Recepies",
+    "tehnologies": ["HTML", " CSS", "JS"],
+    "description": "This project was made to keep all my favorite recepies together",
+    "url": "https://sabovoichita.github.io/recipes/",
+    "preview": "images/24.png"
   }
 ]
