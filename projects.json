@@ -51,7 +51,7 @@
     "id": 7,
     "name": "Project 7: Meals Planner",
     "tehnologies": ["HTML", " CSS", " JS", " API", " NODEjs"],
-    "description": "This project is a table for keeping records or for planning new meals. Meals can be added in the 'Input' area. Meals may be sorted when clicking on hte arrows from the header of the table. You can add, edit or delete meals. A search option is also available",
+    "description": "This project is a table for keeping records or for planning new meals. Meals can be added in the 'Input' area. Meals may be sorted when clicking on the arrows from the header of the table. You can add, edit or delete meals. A search option is also available",
     "url": "https://sabovoichita.github.io/meals-planner/",
     "preview": "images/7.png"
   },
@@ -163,7 +163,7 @@
     "id": 21,
     "name": "Project 21: Quotes Slider",
     "tehnologies": ["HTML", " CSS", "JS"],
-    "description": "This project is a menu made with HTML and CSS and JavaScript which will switch automatically between quotes changing each time the photos too. On pressing the button, quotes can be cganged too.",
+    "description": "This project is a menu made with HTML and CSS and JavaScript which will switch automatically between quotes changing each time the photos too. On pressing the button, quotes can be changed too.",
     "url": "https://sabovoichita.github.io/cafe-menu/",
     "preview": "images/21.png"
   },
@@ -171,7 +171,7 @@
     "id": 22,
     "name": "Project 22: Factura calculator",
     "tehnologies": ["HTML", " CSS", "JS"],
-    "description": "This project is a menu made with HTML and CSS and JavaScript to help find the total amount of a VAT bill in Spain",
+    "description": "This project is a menu made with HTML and CSS and JavaScript to help find the total amount of a VAT bill in Spain.",
     "url": "https://sabovoichita.github.io/factura-calculator/",
     "preview": "images/22.png"
   },
